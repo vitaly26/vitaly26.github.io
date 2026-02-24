@@ -10,5 +10,24 @@
     <button onclick="window.location.href='https://vitaly26.github.io/test?code=qwerty'">
         Перейти на сайт
     </button>
+
+    <script>
+       
+        
+        // Небольшая задержка перед редиректом в приложение
+        setTimeout(function() {
+            // Пытаемся закрыть Custom Tab (работает не всегда, но часто)
+            if (window.close) {
+                window.close();
+            }
+            
+            // Небольшая задержка перед редиректом в приложение
+            setTimeout(function() {
+                // Используем JavaScript-редирект вместо HTTP 302
+                window.location.href = 'https://vitaly26.github.io/test?code=qwerty';
+            }, 100);
+        }, 500);
+    </script>
+
 </body>
 </html>
