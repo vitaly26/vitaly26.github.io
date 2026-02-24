@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "ru.exploit.mcp.app.demo",
-    "sha256_cert_fingerprints":
-    ["B0:F2:7D:CF:F2:38:59:58:A6:57:22:7C:A6:7B:71:36:F9:61:53:32:C2:54:AB:D6:E5:64:13:FA:DE:9A:98:A0"]
-  }
-}]
